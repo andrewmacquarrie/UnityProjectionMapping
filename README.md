@@ -17,6 +17,7 @@ OpenCV is used. The required DLLs are included in this project in the OpenCVDlls
 Download and import the projection mapping package (UnityProjectionMapping.unitypackage in this repository).
 
 Create an empty GameObject and attach the CorrespondenceAcquisition.cs script to it. The script had two fields that need to be completed:
+
 1. Drag your main camera onto the object's "Main camera" field in the Inspector tab.
 2. Drag a crosshair image onto the object’s “Crosshair texture” field. A crosshair image is included in the package, it’s called crosshair.png
 
