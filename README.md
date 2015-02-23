@@ -1,5 +1,7 @@
 # UnityProjectionMapping
 
+Some images and an overview of the concept are available on my blog, http://blog.drewmacqu.com/2015/02/projection-mapping-in-unity.html
+
 ## Using the software
 
 ### Limitations
