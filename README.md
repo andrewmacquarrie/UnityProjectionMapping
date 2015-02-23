@@ -40,7 +40,7 @@ This needs to be done at least seven times. After the seventh correspondence has
 
 You can hide the calibration markers (spheres and crosshairs) by pressing the space bar.
 
-*Tips*: If you get exceptions (and the object disappears in the game view) after 7 points have been defined, something has gone wrong with the calibration. The calibration process is very sensitive to errors, and sometimes just fails. Try defining the points again, being very careful to avoid errors. If you’ve tried it a few times with no luck, it’s likely your virtual model does not accurately reflect the physical model. Try measuring it up again and ensure all the dimensions are correct.
+*Tips*: If you get exceptions (and the object disappears in the game view) after 7 points have been defined, something has gone wrong with the calibration. The calibration process is very sensitive to errors, and sometimes just fails. Try defining the points again, being very careful to avoid errors. If you’ve tried it a few times with no luck, it’s likely your virtual model does not accurately reflect the physical model. Try measuring it up again and ensure all the dimensions are correct. Additionally, each point needs to contribute something to the optimisation (e.g. there needs to be linear independence between points). Try choosing points far apart that capture the full shape of the surface, not multiple points on the same plane.
 
 ### Saving and loading calibrations
 
@@ -50,3 +50,6 @@ To use the points recorder, create a new empty game object and add the PointsRec
 
 While the game is running, you can press "R" to record/save your points, and "P" to play/load your points. When playing in the editor, you can choose a different file name to store your points. In standalone mode, the file name "recording.xml" is used.
 
+## Example unity project
+
+This repository contains an example Unity project that shows how the files need to be used (as described above). It contains a perfect cube object that could be mapped onto a physical cube. Seven good points for the cube would be the seven visible vertices.
