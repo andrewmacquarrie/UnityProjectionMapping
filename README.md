@@ -14,6 +14,9 @@ A 3D model of the projection surface is needed. It's important that the model be
 
 OpenCV is used. The required DLLs are included in this project in the OpenCVDlls folder. These can be placed in the root folder of the Unity project you’re creating, or in a sensible place on your computer and added to the Windows path variable.
 
+You'll also need the VC11 32-bit redistributable, available from Microsoft: https://www.microsoft.com/en-us/download/confirmation.aspx?id=30679
+NB for me it automatically downloads the 64-bit version. You need the 32-bit one. Also on the Microsoft website you need to allow their scripts to run in Chrome - it just works in IE.
+
 ### Project setup
 
 Download and import the projection mapping package (UnityProjectionMapping.unitypackage in this repository).
